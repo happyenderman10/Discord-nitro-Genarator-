@@ -5,7 +5,7 @@ with open('amounts.json') as json_file:
   amounts = json.load(json_file)
   last = amounts.get('amount')
 os.system('color 2')
-os.system(f'title Nitro Generator | Last Generated Amount of codes : {last} ')
+os.system('title Nitro Generator')
 print("""
 ███╗   ██╗██╗████████╗██████╗  ██████╗      ██████╗ ███████╗███╗   ██╗    
 ████╗  ██║██║╚══██╔══╝██╔══██╗██╔═══██╗    ██╔════╝ ██╔════╝████╗  ██║    
